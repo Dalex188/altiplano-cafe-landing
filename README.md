@@ -6,6 +6,8 @@
 
 B2B landing page for **Altiplano Café**, a Guatemalan coffee exporter.
 
+🔗 **Live:** [dalex188.github.io/altiplano-cafe-landing](https://dalex188.github.io/altiplano-cafe-landing/)
+
 ## Quick start
 
 ```bash
