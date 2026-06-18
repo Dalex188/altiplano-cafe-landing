@@ -1,6 +1,6 @@
 # Altiplano Café — Landing Page
 
-B2B landing page for **Altiplano Café**, a fictional Guatemalan coffee exporter. Built as a frontend portfolio project.
+B2B landing page for **Altiplano Café**, a Guatemalan coffee exporter.
 
 ## Quick start
 
