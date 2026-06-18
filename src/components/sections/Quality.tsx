@@ -16,7 +16,7 @@ export const Quality: React.FC = () => (
         </div>
         <div className="quality-image">
           <img
-            src="/images/eduardo-gorghetto-vJ3KldG86Eo-unsplash.jpg"
+            src={`${import.meta.env.BASE_URL}images/eduardo-gorghetto-vJ3KldG86Eo-unsplash.jpg`}
             alt="Guatemalan highlands coffee plantation"
             loading="lazy"
           />

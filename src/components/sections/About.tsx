@@ -22,7 +22,7 @@ export const About: React.FC = () => (
         </div>
         <div className="about-image">
           <img
-            src="/images/daniel-lincoln-4MCJpRp_xbw-unsplash.jpg"
+            src={`${import.meta.env.BASE_URL}images/daniel-lincoln-4MCJpRp_xbw-unsplash.jpg`}
             alt="Freshly harvested Guatemalan coffee beans"
             loading="lazy"
           />
