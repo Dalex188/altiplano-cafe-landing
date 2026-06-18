@@ -1,43 +1,44 @@
-# Altiplano Café — Premium Guatemalan Coffee Landing Page
+# Altiplano Café — Landing Page
 
-B2B landing page for Altiplano Café, a family-owned Guatemalan coffee exporter serving international importers, roasters, and distributors since 1985.
+Demo de landing page B2B para **Altiplano Café**, una exportadora de café guatemalteco ficticia. Proyecto frontend construido como portafolio / showcase técnico.
 
-## Quick path
+## Quick start
 
-1. **Install dependencies:** `npm install`
-2. **Start dev server:** `npx vite --host`
-3. **Build for production:** `npx vite build`
-4. **Open in browser** at the logged LAN address
+```bash
+npm install
+npx vite --host        # dev server
+npx vite build         # producción
+```
 
-All images are loaded lazily. No backend required — lead capture goes through Formspree.
+No requiere backend — los leads se capturan vía Formspree.
 
 ---
 
 ## Tech Stack
 
-| Layer          | Choice                          |
+| Capa           | Elección                        |
 |----------------|---------------------------------|
 | Framework      | React 18 + TypeScript           |
 | Build tool     | Vite 5                          |
-| Styling        | Plain CSS (custom properties)   |
-| Form handling  | Formspree (serverless)          |
-| Fonts          | Inter via Google Fonts          |
-| Icons          | Inline SVGs in TSX              |
-| Images         | Unsplash (local in `public/images/`) |
+| Estilos        | CSS plano (custom properties)   |
+| Formulario     | Formspree (serverless)          |
+| Fuentes        | Inter via Google Fonts          |
+| Iconos         | SVGs inline en TSX              |
+| Imágenes       | Unsplash (locales en `public/images/`) |
 
 ---
 
-## Project Structure
+## Estructura del proyecto
 
 ```
 Landing page/
-├── public/images/             # Static images (served at /images/)
+├── public/images/             # Imágenes estáticas (servidas en /images/)
 ├── src/
-│   ├── AltiplanoCafeLanding.tsx   # Main React component
-│   ├── AltiplanoCafeLanding.css   # All styles (~1250 lines)
-│   ├── main.tsx                   # React mount point
-│   └── vite-env.d.ts              # Vite type shims
-├── index.html                 # Entry HTML (OG tags, fonts)
+│   ├── AltiplanoCafeLanding.tsx   # Componente React principal
+│   ├── AltiplanoCafeLanding.css   # Todos los estilos (~1250 líneas)
+│   ├── main.tsx                   # Punto de montaje React
+│   └── vite-env.d.ts              # Type shims de Vite
+├── index.html                 # HTML de entrada (OG tags, fuentes)
 ├── package.json
 ├── vite.config.ts
 ├── tsconfig.json
@@ -47,68 +48,61 @@ Landing page/
 
 ---
 
-## Page Sections
+## Secciones de la página
 
-| Section        | Behaviour / Notes                                              |
-|----------------|---------------------------------------------------------------|
-| **Hero**       | Full-viewport with dark overlay, CTA button, value props       |
-| **About**      | Company history grid: text + image + stats cards               |
-| **Quality**    | Dark background (light text), 4 quality features + image       |
-| **Export**     | 4-card grid: distribution, blending, pricing, visibility       |
-| **Certifications** | Light overlay on background image, 4 certification cards    |
-| **Process**    | Dark background, vertical timeline with numbered steps + images|
-| **Testimonials** | Dark green background, 3 review cards with 5-star ratings   |
-| **Contact**    | Form with validation, consent checkbox, Formspree submission   |
-| **Footer**     | 4-column grid with links and copyright                         |
-
----
-
-## Navigation & UX
-
-- **Sticky header** with brand text, desktop nav links, and hamburger menu on mobile.
-- **Mobile nav overlay** — solid dark green full-screen menu when hamburger is tapped.
-- **URL hash updates** automatically via Intersection Observer as you scroll through sections.
-- **Smooth scrolling** across all anchor links.
-- **Back to top** floating button (bottom-right corner).
-- **Loading states** on the contact form (submitting/success/error).
-- **`:focus-visible`** outlines for keyboard accessibility.
+| Sección         | Comportamiento / Notas                                         |
+|-----------------|----------------------------------------------------------------|
+| **Hero**        | Full-viewport con overlay oscuro, CTA, propuestas de valor     |
+| **About**       | Grid historia de empresa: texto + imagen + tarjetas con stats  |
+| **Quality**     | Fondo oscuro (texto claro), 4 pilares de calidad + imagen      |
+| **Export**      | Grilla de 4 cards: distribución, blending, pricing, visibilidad|
+| **Certifications** | Overlay claro sobre imagen de fondo, 4 certificaciones      |
+| **Process**     | Fondo oscuro, timeline vertical con pasos numerados + imágenes |
+| **Testimonials**| Fondo verde oscuro, 3 reseñas con estrellas                    |
+| **Contact**     | Formulario con validación, consent checkbox, envío a Formspree |
+| **Footer**      | Grid de 4 columnas con enlaces y copyright                     |
 
 ---
 
-## Colour Palette
+## UX & Navegación
 
-| Token                   | Hex       | Usage                        |
-|-------------------------|-----------|------------------------------|
-| `--primary-dark-green`  | `#1A3C34` | Headers, dark sections       |
-| `--accent-gold`         | `#C8A951` | CTAs, accents, icons         |
-| `--text-dark`           | `#2D2D2D` | Body text                    |
-| `--text-light`          | `#FFFFFF` | Text on dark backgrounds     |
-| `--bg-light`            | `#F9F7F4` | Light section backgrounds    |
-| `--bg-dark`             | `#1A1A1A` | Process timeline section     |
-
----
-
-## Checklist
-
-- [ ] `npm install` completes without errors
-- [ ] Dev server starts with `npx vite --host`
-- [ ] All sections render and scroll correctly on desktop (min 1024px)
-- [ ] All sections render and scroll correctly on mobile (< 768px)
-- [ ] Hamburger menu opens and navigates to each section
-- [ ] URL hash updates while scrolling
-- [ ] Contact form submits to Formspree with validation
-- [ ] Consent checkbox is required before submission
-- [ ] Images load with lazy loading
-- [ ] Production build completes (`npx vite build`)
-- [ ] `dist/` contains `images/` with all assets
+- **Header sticky** con marca, links de navegación y hamburguesa en mobile.
+- **Mobile nav overlay** — menú full-screen verde oscuro al abrir la hamburguesa.
+- **URL hash** se actualiza automáticamente vía Intersection Observer al scrollear.
+- **Smooth scrolling** en todos los anchor links.
+- **Botón "volver arriba"** flotante (esquina inferior derecha).
+- **Estados del formulario** — submitting, success, error.
+- **`:focus-visible`** outlines para accesibilidad por teclado.
 
 ---
 
-## Next Steps
+## Paleta de colores
 
-- Replace Unsplash images with actual brand photography.
-- Point Formspree endpoint to a real production form.
-- Add privacy policy page content (currently links to `#`).
-- Connect OG image (`og-image.jpg`) to a real asset.
-- Set up automated deployment (Vercel / Netlify).
-- Add unit tests for form validation and section rendering.
+| Token                   | Hex       | Uso                         |
+|-------------------------|-----------|-----------------------------|
+| `--primary-dark-green`  | `#1A3C34` | Encabezados, secciones oscuras |
+| `--accent-gold`         | `#C8A951` | CTAs, acentos, iconos       |
+| `--text-dark`           | `#2D2D2D` | Texto corporal              |
+| `--text-light`          | `#FFFFFF` | Texto sobre fondos oscuros  |
+| `--bg-light`            | `#F9F7F4` | Fondos de secciones claras  |
+| `--bg-dark`             | `#1A1A1A` | Sección Process timeline    |
+
+---
+
+## Verificación
+
+- [ ] `npm install` sin errores
+- [ ] Dev server arranca con `npx vite --host`
+- [ ] Todas las secciones renderizan correctamente en desktop (≥ 1024px)
+- [ ] Todas las secciones renderizan correctamente en mobile (< 768px)
+- [ ] Menú hamburguesa abre y navega a cada sección
+- [ ] URL hash se actualiza al scrollear
+- [ ] Formulario envía a Formspree con validación
+- [ ] Consent checkbox es requerido antes de enviar
+- [ ] Imágenes cargan con lazy loading
+- [ ] Build de producción completa (`npx vite build`)
+- [ ] `dist/` contiene `images/` con todos los assets
+
+---
+
+> Proyecto demo — la empresa Altiplano Café es ficticia. Las imágenes son de Unsplash y los datos mostrados son ilustrativos.
