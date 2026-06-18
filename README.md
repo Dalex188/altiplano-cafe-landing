@@ -2,14 +2,12 @@
 
 B2B landing page for Altiplano Café, a family-owned Guatemalan coffee exporter serving international importers, roasters, and distributors since 1985.
 
-**Live dev server:** `http://192.168.1.5:5174`
-
 ## Quick path
 
 1. **Install dependencies:** `npm install`
 2. **Start dev server:** `npx vite --host`
 3. **Build for production:** `npx vite build`
-4. **Open in browser:** `http://192.168.1.5:5174` (or the logged LAN address)
+4. **Open in browser** at the logged LAN address
 
 All images are loaded lazily. No backend required — lead capture goes through Formspree.
 
@@ -42,8 +40,9 @@ Landing page/
 ├── index.html                 # Entry HTML (OG tags, fonts)
 ├── package.json
 ├── vite.config.ts
-├── tsconfig.json / tsconfig.node.json
-└── AGENTS.md                  # AI agent orchestration instructions
+├── tsconfig.json
+├── tsconfig.node.json
+└── .gitignore
 ```
 
 ---
