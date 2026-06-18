@@ -1,5 +1,9 @@
 # Altiplano Café — Landing Page
 
+<p align="center">
+  <img src="screenshots/hero-screenshot.png" alt="Altiplano Café Hero Section" width="800">
+</p>
+
 B2B landing page for **Altiplano Café**, a Guatemalan coffee exporter.
 
 ## Quick start
