@@ -47,20 +47,20 @@ Chain strategy: feature-branch-chain
 
 ## Phase 3: Section Components
 
-- [ ] 3.1 Create `src/components/sections/Header.tsx` — menuOpen, onMenuToggle, onNavClick props; include mobile-nav-overlay
-- [ ] 3.2 Create `src/components/sections/Hero.tsx` — no props, uses icons from barrel
-- [ ] 3.3 Create `src/components/sections/About.tsx` — no props; uses StatCard, SectionHeading
-- [ ] 3.4 Create `src/components/sections/Quality.tsx` — no props; uses QualityItem, SectionHeading
-- [ ] 3.5 Create `src/components/sections/ExportCapabilities.tsx` — no props; uses ExportCard, SectionHeading
-- [ ] 3.6 Create `src/components/sections/Certifications.tsx` — no props; uses CertCard, SectionHeading
-- [ ] 3.7 Create `src/components/sections/ProcessTimeline.tsx` — no props; uses TimelineStep, SectionHeading
-- [ ] 3.8 Create `src/components/sections/Testimonials.tsx` — no props; uses TestimonialCard, StarRating, SectionHeading
-- [ ] 3.9 Create `src/components/sections/ContactForm.tsx` — receives formData, formState, submitError, handleChange, handleSubmit, isFormInvalid as props; uses FormField, ContactDetail
-- [ ] 3.10 Create `src/components/sections/Footer.tsx` — no props
+- [x] 3.1 Create `src/components/sections/Header.tsx` — menuOpen, onMenuToggle, onNavClick props; include mobile-nav-overlay
+- [x] 3.2 Create `src/components/sections/Hero.tsx` — no props, uses icons from barrel
+- [x] 3.3 Create `src/components/sections/About.tsx` — no props; uses StatCard, SectionHeading
+- [x] 3.4 Create `src/components/sections/Quality.tsx` — no props; uses QualityItem, SectionHeading
+- [x] 3.5 Create `src/components/sections/ExportCapabilities.tsx` — no props; uses ExportCard, SectionHeading
+- [x] 3.6 Create `src/components/sections/Certifications.tsx` — no props; uses CertCard, SectionHeading
+- [x] 3.7 Create `src/components/sections/ProcessTimeline.tsx` — no props; uses TimelineStep, SectionHeading
+- [x] 3.8 Create `src/components/sections/Testimonials.tsx` — no props; uses TestimonialCard, StarRating, SectionHeading
+- [x] 3.9 Create `src/components/sections/ContactForm.tsx` — receives formData, formState, submitError, handleChange, handleSubmit, isFormInvalid as props; uses FormField, ContactDetail
+- [x] 3.10 Create `src/components/sections/Footer.tsx` — no props
 
 ## Phase 4: CSS Reorganization
 
-- [ ] 4.1 Create `src/styles/main.css` — copy `AltiplanoCafeLanding.css` verbatim, reorder sections to match page flow (reset → typography → header → hero → about → quality → export → certs → process → testimonials → contact → footer → responsive)
+- [x] 4.1 Create `src/styles/main.css` — copy `AltiplanoCafeLanding.css` verbatim, reorder sections to match page flow (reset → typography → header → hero → about → quality → export → certs → process → testimonials → contact → footer → responsive)
 
 ## Phase 5: App Entry & Wiring
 
