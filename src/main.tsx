@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import AltiplanoCafeLanding from './AltiplanoCafeLanding'
-import './AltiplanoCafeLanding.css'
+import App from './App'
+import './styles/main.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <AltiplanoCafeLanding />
+    <App />
   </React.StrictMode>,
 )
