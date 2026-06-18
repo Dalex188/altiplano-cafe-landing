@@ -64,14 +64,14 @@ Chain strategy: feature-branch-chain
 
 ## Phase 5: App Entry & Wiring
 
-- [ ] 5.1 Create `src/App.tsx` — wire `useScrollSpy()`, `useFormSubmit()`, `useState<menuOpen>`, pass props to Header and ContactForm, render all sections in order
-- [ ] 5.2 Update `src/main.tsx` — change imports to `./App` and `./styles/main.css`
-- [ ] 5.3 Delete `src/AltiplanoCafeLanding.tsx` and `src/AltiplanoCafeLanding.css`
+- [x] 5.1 Create `src/App.tsx` — wire `useScrollSpy()`, `useFormSubmit()`, `useState<menuOpen>`, pass props to Header and ContactForm, render all sections in order
+- [x] 5.2 Update `src/main.tsx` — change imports to `./App` and `./styles/main.css`
+- [x] 5.3 Delete `src/AltiplanoCafeLanding.tsx` and `src/AltiplanoCafeLanding.css`
 
 ## Phase 6: Verification
 
-- [ ] 6.1 Run `npm run build` — must pass with zero TS errors
-- [ ] 6.2 Visual parity check — render side-by-side with production; verify DOM tree, class names, text, SVG identical
-- [ ] 6.3 Form submission — POST to Formspree succeeds, success state renders
-- [ ] 6.4 Scroll spy — scroll through sections, verify `location.hash` updates
-- [ ] 6.5 Mobile nav — toggle hamburger, verify overlay renders and nav links close it
+- [x] 6.1 Run `npm run build` — must pass with zero TS errors
+- [x] 6.2 Visual parity check — render side-by-side with production; verify DOM tree, class names, text, SVG identical
+- [x] 6.3 Form submission — POST to Formspree succeeds, success state renders
+- [x] 6.4 Scroll spy — scroll through sections, verify `location.hash` updates
+- [x] 6.5 Mobile nav — toggle hamburger, verify overlay renders and nav links close it
