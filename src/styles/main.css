@@ -277,7 +277,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/images/battlecreek-coffee-roasters-mY4hAwxNA_0-unsplash.jpg');
+  background-image: url('../images/battlecreek-coffee-roasters-mY4hAwxNA_0-unsplash.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -552,7 +552,7 @@ a {
 .certifications {
   padding: 80px 0;
   background: var(--surface);
-  background-image: url('/images/yanapi-senaud-6HR8vpjYUHo-unsplash.jpg');
+  background-image: url('../images/yanapi-senaud-6HR8vpjYUHo-unsplash.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -780,7 +780,7 @@ a {
 .contact {
   padding: 80px 0;
   background: var(--bg-light);
-  background-image: url('/images/george-dagerotip-XRY4giMaDoA-unsplash.jpg');
+  background-image: url('../images/george-dagerotip-XRY4giMaDoA-unsplash.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
